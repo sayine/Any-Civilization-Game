@@ -12,7 +12,6 @@ contract XenJacket is ERC721, ERC721URIStorage, Ownable, ReentrancyGuard {
     Counters.Counter private _tokenIdCounter;
 
     mapping(address => bool) public alreadyMinted;
-    mapping(address => bool) public whitelisted;
 
     uint256 private maxSupply1 = 49;
     uint256 private maxSupply2 = 99;
